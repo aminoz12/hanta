@@ -55,33 +55,32 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
           <div className="lg:grid lg:grid-cols-12 lg:gap-16 items-center">
             {/* Left Content */}
-            <div className="lg:col-span-6 text-left">
+            <div className="lg:col-span-6 text-center lg:text-left flex flex-col items-center lg:items-start">
               <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-md bg-[#f0f9f4] text-[#2d7a4d] text-sm font-bold mb-10 border border-[#e1f0e7]">
                 <span className="text-xs">🔒</span>
                 <span>100% Certifiés CE</span>
               </div>
               
-              <h1 className="text-5xl sm:text-6xl lg:text-5xl xl:text-6xl tracking-tight font-display font-extrabold text-[#0b1528] leading-[1.1]">
+              <h1 className="text-4xl sm:text-6xl lg:text-5xl xl:text-6xl tracking-tight font-display font-extrabold text-[#0b1528] leading-[1.1]">
                 <span className="block">Protégez-vous avec</span>
                 <span className="block font-serif italic font-black">
                   la qualité <span className="text-[#3b82f6]">médicale</span>
                 </span>
               </h1>
               
-              <p className="mt-8 text-xl text-[#4b5563] font-medium leading-relaxed max-w-lg">
+              <p className="mt-8 text-lg sm:text-xl text-[#4b5563] font-medium leading-relaxed max-w-lg mx-auto lg:mx-0">
                 Boutique officielle HantaProtect. Masques chirurgicaux Type IIR et masques FFP2 haute filtration. Livraison rapide depuis nos entrepôts en France.
               </p>
               
-              <div className="mt-12 flex flex-col sm:flex-row items-center gap-8">
+              <div className="mt-12 flex flex-col sm:flex-row items-center gap-6 sm:gap-8 w-full sm:w-auto">
                 <Link
                   href="/masque-chirurgical-type-2r"
-                  className="group relative inline-flex items-center justify-center px-10 py-5 bg-[#3b82f6] text-white font-black text-lg rounded-2xl transition-all shadow-[0_15px_30px_-10px_rgba(59,130,246,0.5)] hover:shadow-[0_20px_40px_-10px_rgba(59,130,246,0.6)] hover:-translate-y-1 active:translate-y-0"
+                  className="w-full sm:w-auto group relative inline-flex items-center justify-center px-10 py-5 bg-[#3b82f6] text-white font-black text-lg rounded-2xl transition-all shadow-[0_15px_30px_-10px_rgba(59,130,246,0.5)] hover:shadow-[0_20px_40px_-10px_rgba(59,130,246,0.6)] hover:-translate-y-1 active:translate-y-0"
                 >
                   <span className="relative z-10 flex items-center gap-3">
                     Découvrir nos masques
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
                   </span>
-                  {/* Glowing effect */}
                   <div className="absolute inset-0 rounded-2xl bg-white opacity-0 group-hover:opacity-10 transition-opacity" />
                 </Link>
                 
@@ -108,44 +107,44 @@ export default function Home() {
               </div>
 
               {/* Trust Badges listed below - Minimalist Style */}
-              <div className="mt-12 grid grid-cols-2 gap-x-12 gap-y-8 max-w-lg">
-                <div className="flex items-center gap-4">
-                  <div className="text-blue-500 bg-blue-50/50 p-2 rounded-lg">
+              <div className="mt-12 grid grid-cols-2 gap-x-6 sm:gap-x-12 gap-y-8 max-w-lg mx-auto lg:mx-0">
+                <div className="flex items-center gap-3 sm:gap-4">
+                  <div className="text-blue-500 bg-blue-50/50 p-2 rounded-lg shrink-0">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                   </div>
                   <div className="flex flex-col">
                     <span className="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Standard</span>
-                    <span className="text-sm font-black text-[#0b1528]">EN 149:2001+A1:2009</span>
+                    <span className="text-xs sm:text-sm font-black text-[#0b1528]">EN 149:2001+A1:2009</span>
                   </div>
                 </div>
                 
-                <div className="flex items-center gap-4">
-                  <div className="text-blue-500 bg-blue-50/50 p-2 rounded-lg">
+                <div className="flex items-center gap-3 sm:gap-4">
+                  <div className="text-blue-500 bg-blue-50/50 p-2 rounded-lg shrink-0">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
                   </div>
                   <div className="flex flex-col">
                     <span className="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Haute Filtration</span>
-                    <span className="text-sm font-black text-[#0b1528]">≥ 99%</span>
+                    <span className="text-xs sm:text-sm font-black text-[#0b1528]">≥ 99%</span>
                   </div>
                 </div>
 
-                <div className="flex items-center gap-4">
-                  <div className="text-green-500 bg-green-50/50 p-2 rounded-lg">
+                <div className="flex items-center gap-3 sm:gap-4">
+                  <div className="text-green-500 bg-green-50/50 p-2 rounded-lg shrink-0">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="20 6 9 17 4 12"/></svg>
                   </div>
                   <div className="flex flex-col">
                     <span className="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Certifié</span>
-                    <span className="text-sm font-black text-[#0b1528]">CE</span>
+                    <span className="text-xs sm:text-sm font-black text-[#0b1528]">CE</span>
                   </div>
                 </div>
 
-                <div className="flex items-center gap-4">
-                  <div className="text-[#b59461] bg-[#b59461]/10 p-2 rounded-lg">
+                <div className="flex items-center gap-3 sm:gap-4">
+                  <div className="text-[#b59461] bg-[#b59461]/10 p-2 rounded-lg shrink-0">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                   </div>
                   <div className="flex flex-col">
                     <span className="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Trusted</span>
-                    <span className="text-sm font-black uppercase text-[#0b1528]">Brand</span>
+                    <span className="text-xs sm:text-sm font-black uppercase text-[#0b1528]">Brand</span>
                   </div>
                 </div>
               </div>

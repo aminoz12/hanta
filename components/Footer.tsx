@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ShieldCheck, Truck, Clock, CreditCard } from 'lucide-react';
 
 export default function Footer() {
@@ -41,13 +42,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-6">
-              <div className="flex items-center justify-center w-10 h-10 bg-white border-2 border-[#0b1528] rounded shadow-[2px_2px_0px_rgba(220,38,38,1)]">
-                <span className="font-extrabold text-[#0b1528] text-xl">HP</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="font-display font-extrabold text-white text-xl leading-none tracking-tight">HANTA PROTECT</span>
-                <span className="text-red-500 text-[9px] font-bold tracking-[0.2em] uppercase mt-1">LA RÉVOLUTION DU MASQUE</span>
-              </div>
+              <Image 
+                src="/images/logo.png" 
+                alt="HantaProtect Logo" 
+                width={180} 
+                height={60} 
+                className="h-12 w-auto object-contain brightness-0 invert"
+              />
             </Link>
             <p className="text-gray-400 text-sm mb-6 leading-relaxed">
               Votre partenaire de confiance pour la protection respiratoire médicale. Masques certifiés CE, expédiés depuis nos entrepôts en France.

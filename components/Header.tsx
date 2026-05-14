@@ -1,6 +1,7 @@
 "use client";
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { ShoppingCart, Menu, X, Clock, User } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { useCartStore } from '@/lib/store/cartStore';
@@ -53,13 +54,14 @@ export default function Header() {
           
           {/* Logo */}
           <Link href="/" className="flex-shrink-0 flex items-center gap-3 mt-1">
-            <div className="flex items-center justify-center w-10 h-10 bg-white border-2 border-[#0b1528] rounded shadow-[2px_2px_0px_rgba(220,38,38,1)]">
-              <span className="font-extrabold text-[#0b1528] text-xl">HP</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-display font-extrabold text-[#0b1528] text-2xl leading-none tracking-tight">HANTA PROTECT</span>
-              <span className="text-red-600 text-[10px] font-bold tracking-[0.2em] uppercase mt-1">LA PROTECTION AU QUOTIDIEN</span>
-            </div>
+            <Image 
+              src="/images/logo.png" 
+              alt="HantaProtect Logo" 
+              width={220} 
+              height={72} 
+              className="h-14 sm:h-16 w-auto object-contain"
+              priority
+            />
           </Link>
 
           {/* Center Area (Logo text or slogan) */}
