@@ -20,7 +20,7 @@ export default function Header() {
     <header className="w-full bg-white shadow-sm z-50 relative">
       {/* Top Banner - Blue Gradient */}
       <div className="bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-400 text-white py-2 px-4 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6 text-xs sm:text-sm font-bold tracking-wide">
-        <span className="uppercase text-center">NOS MASQUES FRANÇAIS VENDUS AUX PRO ET PARTICULIERS !</span>
+        <span className="uppercase text-center">NOS MASQUES VENDUS AUX PRO ET PARTICULIERS !</span>
         <Link href="/masque-chirurgical-type-2r" className="bg-white text-blue-500 px-4 py-1.5 rounded text-xs font-bold uppercase hover:bg-gray-100 transition-colors shadow-sm">
           VOIR NOS MASQUES
         </Link>
@@ -52,13 +52,13 @@ export default function Header() {
         <div className="flex items-center justify-between gap-6 lg:gap-12">
           
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0 flex items-center gap-3">
+          <Link href="/" className="flex-shrink-0 flex items-center gap-3 mt-1">
             <div className="flex items-center justify-center w-10 h-10 bg-white border-2 border-[#0b1528] rounded shadow-[2px_2px_0px_rgba(220,38,38,1)]">
               <span className="font-extrabold text-[#0b1528] text-xl">HP</span>
             </div>
             <div className="flex flex-col">
               <span className="font-display font-extrabold text-[#0b1528] text-2xl leading-none tracking-tight">HANTA PROTECT</span>
-              <span className="text-red-600 text-[10px] font-bold tracking-[0.2em] uppercase mt-1">LA RÉVOLUTION DU MASQUE</span>
+              <span className="text-red-600 text-[10px] font-bold tracking-[0.2em] uppercase mt-1">LA PROTECTION AU QUOTIDIEN</span>
             </div>
           </Link>
 

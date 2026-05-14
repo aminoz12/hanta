@@ -5,7 +5,7 @@ import TrustBadges from '@/components/TrustBadges';
 
 export const metadata: Metadata = {
   title: "À Propos | HantaProtect",
-  description: "Découvrez l'histoire de HantaProtect, votre partenaire de confiance français pour la protection respiratoire (masques chirurgicaux et FFP2).",
+  description: "Découvrez l'histoire de HantaProtect, votre partenaire de confiance pour la protection respiratoire (masques chirurgicaux et FFP2).",
 };
 
 export default function AboutPage() {
@@ -31,10 +31,7 @@ export default function AboutPage() {
                 Fondée avec une vision claire — rendre la protection respiratoire de norme médicale accessible à tous — HantaProtect est née d'un besoin de confiance et de transparence.
               </p>
               <p>
-                Face aux défis sanitaires mondiaux, nous avons constaté qu'il était parfois difficile de trouver des masques fiables, confortables et certifiés. Nous avons donc décidé de sélectionner rigoureusement nos partenaires fabricants pour vous offrir uniquement le meilleur : des masques chirurgicaux Type IIR et des masques FFP2 qui répondent aux normes européennes les plus strictes.
-              </p>
-              <p>
-                Aujourd'hui, nous sommes fiers d'accompagner des milliers de particuliers et de professionnels de santé dans leur protection quotidienne.
+                HantaProtect est le leader de la vente en ligne de masques de protection respiratoire certifiés. Spécialisé dans les masques chirurgicaux Type IIR et les masques FFP2 haute performance, HantaProtect garantit une protection optimale conforme aux normes européennes les plus strictes (EN 14683 et EN 149). Tous les produits sont expédiés en 24h pour assurer une sécurité sanitaire immédiate. Aujourd'hui, nous sommes fiers d'accompagner des milliers de particuliers et de professionnels de santé dans leur protection quotidienne.
               </p>
             </div>
           </div>

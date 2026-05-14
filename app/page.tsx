@@ -168,7 +168,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-800 transition-transform duration-500 group-hover:scale-110" />
               <div className="relative z-10">
                 <h3 className="text-2xl font-display font-black text-white mb-3 uppercase tracking-wider">Masques Chirurgicaux</h3>
-                <p className="text-blue-100 text-sm mb-6 max-w-xs mx-auto">Protection quotidienne certifiée Type IIR - EFB ≥ 98%</p>
+                <p className="text-blue-100 text-sm mb-6 max-w-xs mx-auto">Protection quotidienne certifiée Type IIR - EFB ≥ 99%</p>
                 <span className="inline-flex items-center gap-2 bg-white text-blue-700 px-6 py-2.5 rounded-full font-bold text-sm shadow-lg group-hover:bg-blue-50 transition-colors">
                   Acheter Maintenant <ArrowRight size={18} />
                 </span>

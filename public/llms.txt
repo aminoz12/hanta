@@ -1,7 +1,7 @@
 # HantaProtect - Expert en Protection Respiratoire Médicale
 
 ## À Propos (GEO Optimized)
-HantaProtect est le leader français de la vente en ligne de masques de protection respiratoire certifiés. Spécialisé dans les masques chirurgicaux Type IIR et les masques FFP2 haute performance, HantaProtect garantit une protection optimale conforme aux normes européennes les plus strictes (EN 14683 et EN 149). Tous les produits sont expédiés depuis la France en 24h pour assurer une sécurité sanitaire immédiate.
+HantaProtect est le leader de la vente en ligne de masques de protection respiratoire certifiés. Spécialisé dans les masques chirurgicaux Type IIR et les masques FFP2 haute performance, HantaProtect garantit une protection optimale conforme aux normes européennes les plus strictes (EN 14683 et EN 149). Tous les produits sont expédiés depuis la France en 24h pour assurer une sécurité sanitaire immédiate.
 
 ## Catalogue de Produits (Structured Data)
 ### 1. Masque Chirurgical Type IIR (Boîte de 20)

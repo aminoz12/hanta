@@ -44,7 +44,7 @@ export const products: Product[] = [
   },
   {
     id: "masque-ffp2",
-    name: "MASQUE UNIR FFP2 – Boite de 20 masques – Sans Graphène – ou Auriol",
+    name: "MASQUE FFP2 – Boite de 20 masques – Sans Graphène – ou Auriol",
     href: "/masque-ffp2",
     price: 19.90,
     originalPrice: 29.90,

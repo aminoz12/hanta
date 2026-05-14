@@ -8,7 +8,7 @@ import { Check, ShieldCheck } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "MASQUE UNIR FFP2 – Boite de 20 masques – Sans Graphène – ou Auriol",
+  title: "MASQUE FFP2 – Boite de 20 masques – Sans Graphène – ou Auriol",
   description: "Masques FFP2 haute protection (Boite de 20) avec 5 couches de filtration. Sans Graphène. Conformes à la norme EN 149:2001+A1:2009. Achat en ligne.",
 };
 
