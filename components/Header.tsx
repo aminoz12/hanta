@@ -57,9 +57,9 @@ export default function Header() {
             <Image 
               src="/images/logo.png" 
               alt="HantaProtect Logo" 
-              width={220} 
-              height={72} 
-              className="h-14 sm:h-16 w-auto object-contain"
+              width={440} 
+              height={144} 
+              className="h-28 sm:h-32 w-auto object-contain"
               priority
             />
           </Link>

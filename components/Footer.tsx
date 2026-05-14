@@ -45,9 +45,9 @@ export default function Footer() {
               <Image 
                 src="/images/logo.png" 
                 alt="HantaProtect Logo" 
-                width={180} 
-                height={60} 
-                className="h-12 w-auto object-contain brightness-0 invert"
+                width={360} 
+                height={120} 
+                className="h-24 w-auto object-contain brightness-0 invert"
               />
             </Link>
             <p className="text-gray-400 text-sm mb-6 leading-relaxed">
