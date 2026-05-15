@@ -3,7 +3,7 @@ import { products } from '@/lib/products';
 import { blogPosts } from '@/lib/blog';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://hantaprotect.fr';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.hantaprotect.fr';
 
   // Core pages
   const corePages = [

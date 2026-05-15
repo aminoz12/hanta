@@ -32,8 +32,8 @@ export async function POST(req: Request) {
         quantity: item.quantity,
       })),
       mode: 'payment',
-      success_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/confirmation?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/`,
+      success_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.hantaprotect.fr'}/confirmation?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.hantaprotect.fr'}/`,
     });
 
     return NextResponse.json({ url: session.url });
